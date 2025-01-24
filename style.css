@@ -102,8 +102,8 @@ header {
 }
 
 body {
-   background-image: url(https://img.freepik.com/premium-photo/black-white-smooth-gradient-background-texture-background_97567-775.jpg);
-   background-size: contain;
+    background-image: url(/Design\ \(1\).png);
+   background-size: contain; 
 }
 
 .box {
@@ -116,7 +116,7 @@ body {
 .box .right{
     width: 100%;
     height: 100%;
-    background-image: url(/new__1_-removebg-preview.png);
+    /* background-image: url(/new__1_-removebg-preview.png); */
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
@@ -139,14 +139,13 @@ body {
     font-size: 40px;
     line-height: 45px;
     text-transform: uppercase;
-  -webkit-background-clip: text; 
     color: white;
 }
 
 .box .left,
 .box .right{
     position: absolute;
-    left: 0;
+    left: 200px;
 }
 .right{
     margin-left: 100px;
@@ -155,7 +154,9 @@ body {
     margin-left: 150px;
 }
 
-
+.content {
+    visibility: hidden;
+}
 
 
 /* css slider */
