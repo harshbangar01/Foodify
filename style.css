@@ -157,7 +157,14 @@ body {
 .content {
     visibility: hidden;
 }
+footer {
+    background-color: #343a40;
+}
 
+/* h2 {
+    font-weight: 600;
+    font-size: large;
+} */
 
 /* css slider */
 .slider{
@@ -300,6 +307,7 @@ body {
 }
 
 p{
+    visibility: visible;
     color: #e9ecef81;
 }
 
